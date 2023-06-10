@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: var(--light-gray);
+    height: 3rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+
+.author {
+    margin-right: 1rem;
+}
+
+/*margin-right 대신 .footer-container에 gap을 사용해서 간격을 떨어뜨리는 방법도 있다.*/
